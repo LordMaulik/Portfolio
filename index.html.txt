@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maulik Singhal - Marketing Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-animation">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+    </div>
+
+    <div id="mainPortfolio">
+        <nav>
+            <div class="logo">MS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hello, I'm</h2>
+                    <h1>Maulik Singhal</h1>
+                    <h3>Marketing Enthusiast | PGDM Student | Brand & Content Strategist</h3>
+                    <p>A data-driven marketing professional passionate about digital marketing, brand strategy, and analytics. Currently pursuing PGDM at Lal Bahadur Shastri Institute of Management, I combine creative thinking with analytical insights to drive impactful marketing campaigns.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-wrapper">
+                        <div class="profile-ring"></div>
+                        <img src="" alt="Maulik Singhal" class="profile-img" id="profileImg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <p>A blend of technical proficiency and creative marketing capabilities</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Marketing Focus</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Digital Marketing</span>
+                        <span class="skill-tag">Brand Strategy</span>
+                        <span class="skill-tag">Marketing Analytics</span>
+                        <span class="skill-tag">Content Marketing</span>
+                        <span class="skill-tag">SEO</span>
+                        <span class="skill-tag">Social Media</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MS Excel</span>
+                        <span class="skill-tag">Google Analytics</span>
+                        <span class="skill-tag">Google Ads</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Mass-Mailing</span>
+                        <span class="skill-tag">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Creative Thinking</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Innovation</span>
+                        <span class="skill-tag">Team Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <h2>Projects & Work</h2>
+                <p>Click any project to explore the full report, summary, and key insights</p>
+            </div>
+            <div class="projects-container">
+                <div class="project-categories">
+                    <button class="category-btn active" data-category="all">All Projects</button>
+                    <button class="category-btn" data-category="marketing">Marketing</button>
+                    <button class="category-btn" data-category="research">Research</button>
+                    <button class="category-btn" data-category="digital">Digital</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="marketing">
+                        <div class="project-header">
+                            <span class="project-type">Marketing Analysis</span>
+                            <h3>Netflix Brand Communication Audit</h3>
+                            <p class="project-date">2025</p>
+                        </div>
+                        <div class="project-body">
+                            <p>Comprehensive audit of Netflix India's brand communication strategy across platforms — analyzing audience targeting, tone, cultural adaptation, and touchpoints.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Brand Strategy</span>
+                                <span class="meta-tag">Content Analysis</span>
+                                <span class="meta-tag">Multi-Platform</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="proj-btn proj-btn-primary" onclick="openProject('netflix')">📋 View Full Report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="digital">
+                        <div class="project-header">
+                            <span class="project-type">Digital Marketing</span>
+                            <h3>Think Sweet Chew-tastic Website</h3>
+                            <p class="project-date">2025</p>
+                        </div>
+                        <div class="project-body">
+                            <p>Developed a full-fledged digital marketing website for a confectionery brand with SEO strategies, content marketing, and user engagement features.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Web Development</span>
+                                <span class="meta-tag">SEO</span>
+                                <span class="meta-tag">Digital Strategy</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://think-sweet-chew-tastic.lovable.app/" target="_blank" class="proj-btn proj-btn-primary">🌐 Visit Live Website</a>
+                                <button class="proj-btn proj-btn-outline" onclick="openProject('thinksweet')">📋 Project Summary</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="marketing">
+                        <div class="project-header">
+                            <span class="project-type">Business Strategy</span>
+                            <h3>Skilled Sapiens Partnership Strategy</h3>
+                            <p class="project-date">2025</p>
+                        </div>
+                        <div class="project-body">
+                            <p>Developed a comprehensive partnership-led growth strategy for a mentorship learning platform, covering C2C and C2B initiatives with structured frameworks.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Business Development</span>
+                                <span class="meta-tag">Strategic Planning</span>
+                                <span class="meta-tag">Live Project</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="proj-btn proj-btn-primary" onclick="openProject('skilled')">📋 View Full Report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="research">
+                        <div class="project-header">
+                            <span class="project-type">Field Research</span>
+                            <h3>Rural Immersion – Golpura Village</h3>
+                            <p class="project-date">2025</p>
+                        </div>
+                        <div class="project-body">
+                            <p>A week-long immersion in Golpura village, Dhar District, using PRA tools to study rural livelihoods, infrastructure gaps, and community dynamics.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">PRA Tools</span>
+                                <span class="meta-tag">Field Study</span>
+                                <span class="meta-tag">Rural Development</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="proj-btn proj-btn-primary" onclick="openProject('rural')">📋 View Full Report</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-header">
+                <h2>Experience & Achievements</h2>
+                <p>Professional journey and key milestones</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>C&S Electric Limited</h3>
+                        <h4>Sales & Marketing – Retail Business</h4>
+                        <p class="duration">April 2026 – June 2026</p>
+                        <p>Selected for internship under Deputy Manager-Sales (Retail) at C&S Electric Limited, New Delhi. Working in Sales & Marketing Department.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>IMSUC Ghaziabad</h3>
+                        <h4>Content Writing Expert</h4>
+                        <p class="duration">June 2023 – May 2024 (11 Months)</p>
+                        <p>Managed content for EWL Department — event reports, newsletters, and portal engagement. Enhanced student engagement on Quora by 25%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Reliable Allied Services, Noida</h3>
+                        <h4>HR Recruiter Intern</h4>
+                        <p class="duration">May 2023 – July 2023 (2 Months)</p>
+                        <p>Sourced 700+ candidates via Naukri, Shine, Monster and mass mailing. Achieved 25% of hiring goal with 1 managerial hire at SBI Life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <h2>Publications & Research</h2>
+                <p>Contributing to academic knowledge in sustainable HRM</p>
+            </div>
+            <div class="publication-card">
+                <span class="pub-badge">Scopus Indexed</span>
+                <h3>Exploring Sustainable Green HRM Perspectives: A Bibliometric Analysis of Employee Well-Being and Organisational Resilience</h3>
+                <p class="pub-meta">International Journal of Environmental Sciences • Vol. 11 No. 5, 2025</p>
+                <p style="color:rgba(255,255,255,.8);line-height:1.7;margin-bottom:1.5rem;">Co-authored research employing bibliometric analysis via R Package (Biblioshiny) to synthesize the relationship between Green HRM practices, employee well-being, and long-term organizational resilience.</p>
+                <div class="project-actions">
+                    <button class="proj-btn proj-btn-primary" onclick="openProject('publication')">📄 View Full Paper</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <h2>Beyond Academics</h2>
+                <p>Leadership, adventures, and creative achievements</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header"><span class="project-type">Event Management</span><h3>TATVA 2K26</h3></div>
+                    <div class="project-body"><p>Managed hosting of LBSIM's mega event on Unstop platform. Coordinated logistics, registrations, and promotions.</p></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header"><span class="project-type">Leadership</span><h3>Dodital Trek</h3></div>
+                    <div class="project-body"><p>Leadership program by Tata Steel Adventure Foundation. Demonstrated resilience and teamwork under challenging conditions.</p></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header"><span class="project-type">Creative Award</span><h3>Print Ad Competition — 1st Prize</h3></div>
+                    <div class="project-body"><p>Won 1st Prize in print ad competition held in remembrance of Piyush Pandey, the father of Indian advertising.</p></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header"><span class="project-type">Club Leadership</span><h3>Hrythm Coordinator</h3></div>
+                    <div class="project-body"><p>Currently serving as Coordinator for Hrythm, the HR club of LBSIM. Leading initiatives for club growth and member engagement.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Always open to discussing marketing opportunities and collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Whether you're looking for a passionate marketing professional, want to collaborate on a project, or just want to say hi — I'd love to hear from you!</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:mauliksinghal-g3-25@lbsim.ac.in" class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details"><h4>Email</h4><p>mauliksinghal-g3-25@lbsim.ac.in</p></div>
+                    </a>
+                    <a href="tel:+919289271364" class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details"><h4>Phone</h4><p>+91 9289271364</p></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maulik-singhal-lbsim/" target="_blank" class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details"><h4>LinkedIn</h4><p>linkedin.com/in/maulik-singhal-lbsim</p></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer><p>&copy; 2026 Maulik Singhal. Crafted with creativity and passion for marketing.</p></footer>
+    </div><div id="page-netflix" class="project-page">
+        <div class="pp-header">
+            <button class="pp-back" onclick="closeProject()">← Back to Portfolio</button>
+            <span class="pp-title">Netflix Brand Communication Audit</span>
+        </div>
+        <div class="pp-body">
+            <div class="summary-card">
+                <div class="summary-label">⚡ Quick Glance Summary</div>
+                <h2>Netflix India Communication Audit</h2>
+                <div class="summary-grid">
+                    <div class="summary-stat"><span class="val">44M+</span><span class="lbl">Social Followers</span></div>
+                    <div class="summary-stat"><span class="val">12M</span><span class="lbl">Paid Subscribers</span></div>
+                    <div class="summary-stat"><span class="val">₹3,000Cr+</span><span class="lbl">Indian Content Spend</span></div>
+                    <div class="summary-stat"><span class="val">5</span><span class="lbl">Audience Segments</span></div>
+                </div>
+                <p class="summary-text">Netflix India transformed from a premium global brand into a culturally embedded, mobile-first platform. This audit maps <strong>how</strong> they did it — analyzing messaging, tone, touchpoints, and gaps across every communication channel.</p>
+                <ul class="summary-bullets">
+                    <li>₹199 mobile-only plan made Netflix accessible to Tier 2-3 cities</li>
+                    <li>Meme marketing & trend-jacking on Twitter built massive Gen-Z loyalty</li>
+                    <li>Hindi UI, 50+ language support & regional content showcase = true localization</li>
+                    <li>Billboards like "Netflix is a Joke" created high-recall OOH campaigns</li>
+                    <li>Key gap: Lack of transparency around cancellations & pricing changes</li>
+                    <li>Recommendation: Deeper regional sports & festival calendar integration</li>
+                </ul>
+            </div>
+            <div class="full-report-toggle">
+                <div class="toggle-header" onclick="toggleSection(this)">
+                    <h3>📋 Full Report — Detailed Audit</h3>
+                    <span class="toggle-arrow">▼</span>
+                </div>
+                <div class="toggle-body">
+                    <div class="report-section">
+                        <h4>🎯 Strategic Positioning</h4>
+                        <p>Netflix India repositioned from a premium-only brand to "Netflix for All" with three core promises: <strong>Affordability</strong> (₹199 mobile plan), <strong>Authentic Stories</strong> (₹3,000+ crore Indian original investment), and <strong>Technological Innovation</strong> (offline viewing, data-light streaming).</p>
+                    </div>
+                    <div class="report-section">
+                        <h4>👥 Target Audience Segments</h4>
+                        <table class="report-table">
+                            <tr><th>Segment</th><th>Demographics</th><th>Communication Strategy</th></tr>
+                            <tr><td>Urban Millennials</td><td>Ages 25–39, metro cities</td><td>Meme marketing, cultural commentary</td></tr>
+                            <tr><td>Tier 2-3 Cities</td><td>Ages 18–35, regional languages</td><td>Telecom partnerships, offline focus</td></tr>
+                            <tr><td>Family Viewers</td><td>Multi-generational households</td><td>Festival campaigns, cultural content</td></tr>
+                            <tr><td>Mobile-First Users</td><td>All ages, commuter-heavy</td><td>App optimization, data efficiency</td></tr>
+                            <tr><td>Young Viewers</td><td>Parents with young children</td><td>Kids profiles, parental controls</td></tr>
+                        </table>
+                    </div>
+                    <div class="report-section">
+                        <h4>📱 Communication Touchpoints</h4>
+                        <ul>
+                            <li><strong>Website & App:</strong> "Join Now" (not "Subscribe Now") — welcoming community framing. Hindi UI, regional content showcased upfront.</li>
+                            <li><strong>Instagram (12.4M):</strong> Reels, carousel posts, BTS content, celebrity-driven. Targets Gen Z & Millennials. High engagement on meme culture.</li>
+                            <li><strong>Twitter/X (1.8M):</strong> Witty, conversational tone. Real-time trend-jacking (#StrangerThingsDay). Feels like "a friend, not a brand."</li>
+                            <li><strong>YouTube (27.4M):</strong> Trailers, cast interviews, mashups — 3–5 min content earns highest engagement. Fan-first, not just promotional.</li>
+                            <li><strong>Email:</strong> Personalized recommendations based on viewing history. Solution-oriented tone for service comms.</li>
+                            <li><strong>OOH Billboards:</strong> High-recall hooks — "Should've Netflixed instead", generational film tributes (DCH for Gen X, ZNMD for Gen Y).</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>✅ Communication Strengths</h4>
+                        <ul>
+                            <li>Data-driven personalization — values audience preferences over brand agenda</li>
+                            <li>Interactive communication — audience becomes part of promotion cycle</li>
+                            <li>Emotional appeal centered on friendships and shared experiences</li>
+                            <li>Consistent voice across all digital and offline channels</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>⚠️ Gaps & Challenges</h4>
+                        <ul>
+                            <li>Transparency issues: cancellations, pricing changes not clearly communicated</li>
+                            <li>Occasional cultural missteps with global campaigns in regional markets</li>
+                            <li>Content promotion overload — audiences may miss messaging amid volume</li>
+                            <li>Premium image creates a gap with price-sensitive audiences</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>💡 Strategic Recommendations</h4>
+                        <ul>
+                            <li>Customer Experience: Expand multilingual support, add clearer pricing communication</li>
+                            <li>Market Expansion: Rural connectivity push, ad-supported tiers, diverse payment options</li>
+                            <li>Content Evolution: Invest in documentaries, gaming integration, educational content</li>
+                            <li>Cultural Deepening: Festival calendar marketing, regional sports, local influencer programs</li>
+                            <li>Technology: Voice integration, Smart TV optimization, enhanced offline features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-thinksweet" class="project-page">
+        <div class="pp-header">
+            <button class="pp-back" onclick="closeProject()">← Back to Portfolio</button>
+            <span class="pp-title">Think Sweet Chew-tastic — Digital Marketing Project</span>
+        </div>
+        <div class="pp-body">
+            <div class="summary-card">
+                <div class="summary-label">⚡ Quick Glance Summary</div>
+                <h2>Think Sweet — Building a Brand Online from Scratch</h2>
+                <div class="summary-grid">
+                    <div class="summary-stat"><span class="val">Live</span><span class="lbl">Website Status</span></div>
+                    <div class="summary-stat"><span class="val">SEO</span><span class="lbl">Core Strategy</span></div>
+                    <div class="summary-stat"><span class="val">D2C</span><span class="lbl">Business Model</span></div>
+                    <div class="summary-stat"><span class="val">2025</span><span class="lbl">Project Year</span></div>
+                </div>
+                <p class="summary-text">Think Sweet is a confectionery brand website built to showcase how digital marketing strategy, brand identity, and user experience design come together to drive awareness and sales for a product brand. The project demonstrates real-world application of SEO, content structure, and conversion-focused design.</p>
+                <ul class="summary-bullets">
+                    <li>Designed and launched a full branded website for a chewing candy brand</li>
+                    <li>Applied SEO best practices — meta structure, keyword-rich content, fast load</li>
+                    <li>Created engaging product-led content to drive user interest and time-on-site</li>
+                    <li>Built with a mobile-first, visually appealing design approach</li>
+                    <li>Demonstrates ability to translate brand strategy into digital execution</li>
+                </ul>
+                <div style="margin-top:1.5rem;">
+                    <a href="https://think-sweet-chew-tastic.lovable.app/" target="_blank" class="proj-btn proj-btn-primary" style="text-decoration:none;">🌐 Visit the Live Website →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-skilled" class="project-page">
+        <div class="pp-header">
+            <button class="pp-back" onclick="closeProject()">← Back to Portfolio</button>
+            <span class="pp-title">Skilled Sapiens — Partnership Strategy Report</span>
+        </div>
+        <div class="pp-body">
+            <div class="summary-card">
+                <div class="summary-label">⚡ Quick Glance Summary</div>
+                <h2>Skilled Sapiens — From Ad-Hoc to a Partnership-Led Growth Engine</h2>
+                <div class="summary-grid">
+                    <div class="summary-stat"><span class="val">C2C + C2B</span><span class="lbl">Core Initiatives</span></div>
+                    <div class="summary-stat"><span class="val">3 Phases</span><span class="lbl">Implementation Plan</span></div>
+                    <div class="summary-stat"><span class="val">5 KPIs</span><span class="lbl">Success Metrics</span></div>
+                    <div class="summary-stat"><span class="val">Live Project</span><span class="lbl">Project Type</span></div>
+                </div>
+                <p class="summary-text">Skilled Sapiens is a mentorship-led learning platform that was growing through word-of-mouth but had no structured partnership model. This project delivers a full strategic blueprint to move from informal collaborations to a scalable, outcome-driven partnership ecosystem — without compromising the platform's personalized mentorship quality.</p>
+                <ul class="summary-bullets">
+                    <li>Identified key partner categories: colleges, placement cells, incubators, investor networks</li>
+                    <li>Designed C2C model for placement-seeking students & C2B for entrepreneurs</li>
+                    <li>Built a 3-phase roadmap: Standardize → Pilot & Learn → Customize</li>
+                    <li>Defined clear KPIs: lead quality, conversion rate, mentor utilization, repeat engagement</li>
+                    <li>Outlined risks (over-customization, mentor bandwidth) with mitigation strategies</li>
+                    <li>Recommended institutionalizing partnerships as a core growth lever</li>
+                </ul>
+            </div>
+            <div class="full-report-toggle">
+                <div class="toggle-header" onclick="toggleSection(this)">
+                    <h3>📋 Full Report — Partnership Strategy</h3>
+                    <span class="toggle-arrow">▼</span>
+                </div>
+                <div class="toggle-body">
+                    <div class="report-section">
+                        <h4>1. Executive Summary</h4>
+                        <p>Skilled Sapiens is a mentorship-led learning platform focused on live experiential learning, leadership skill development, and one-on-one mentorship for students, professionals, and entrepreneurs. While it has built credibility through outcomes-oriented mentorship, its growth is constrained by the absence of a structured partnership strategy.</p>
+                        <ul>
+                            <li>Mentorship-led platforms scale more efficiently when partnerships provide pre-existing audiences and institutional credibility</li>
+                            <li>Current collaborations are tactical and short-term, limiting scalability and consistency</li>
+                            <li>Recommendation: Move from ad-hoc to a structured partnership ecosystem with clear value exchanges and KPIs</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>2. Platform Overview</h4>
+                        <p>Skilled Sapiens serves students, working professionals, and entrepreneurs through: live experiential learning, leadership skill development, one-on-one personalized mentorship, structured placement support, and entrepreneurial guidance. Mentors include IIM/IIT alumni, senior corporate professionals, and entrepreneurs who act as personal guides, not just instructors.</p>
+                    </div>
+                    <div class="report-section">
+                        <h4>3. Business Problem</h4>
+                        <p>The core question: <em>"How can Skilled Sapiens transition from ad-hoc, relationship-based collaborations to a structured partnership-led growth model that enables scalable reach while preserving personalized mentorship quality?"</em></p>
+                        <ul>
+                            <li>Current dependence on informal networks and referrals</li>
+                            <li>Limited repeat access to learner cohorts</li>
+                            <li>No standardized partnership engagement models or KPIs</li>
+                            <li>Absence of clear value exchange frameworks</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>4. Partnership Opportunity Identification</h4>
+                        <table class="report-table">
+                            <tr><th>Initiative</th><th>High-Priority Partners</th><th>Supporting Partners</th></tr>
+                            <tr><td>Campus to Corporate (C2C)</td><td>Colleges, placement cells, corporates</td><td>Student clubs, mentors</td></tr>
+                            <tr><td>Campus to Business (C2B)</td><td>Incubators, angel networks</td><td>Service & execution partners</td></tr>
+                        </table>
+                    </div>
+                    <div class="report-section">
+                        <h4>5. Partnership Strategy Framework</h4>
+                        <ul>
+                            <li><strong>C2C Models:</strong> Institutional Collaboration, Cohort-Based Mentorship, Referral-Based</li>
+                            <li><strong>C2B Models:</strong> Incubation Support, Investor Enablement, Service Collaboration</li>
+                            <li><strong>Value for Skilled Sapiens:</strong> Pre-existing learner communities, institutional credibility, efficient acquisition</li>
+                            <li><strong>Value for Partners:</strong> Structured mentorship, career-readiness, access to mentor network</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>6. Implementation Roadmap</h4>
+                        <ul>
+                            <li><strong>Phase 1 (Short-Term):</strong> Finalize partner categories, define engagement scope, offer standardized programs</li>
+                            <li><strong>Phase 2 (Mid-Term):</strong> Pilot partnerships, understand audience profiles, collect structured feedback</li>
+                            <li><strong>Phase 3 (Long-Term):</strong> Customize content depth for high-performing partners, optimize mentor effort</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>7. Success Metrics (KPIs)</h4>
+                        <ul>
+                            <li>Partner Contribution to Learner Reach</li>
+                            <li>Engagement Quality (participation, mentor interaction)</li>
+                            <li>Conversion Effectiveness (partner-sourced to enrolled)</li>
+                            <li>Revenue Contribution by Partner</li>
+                            <li>Repeat Engagement & Partnership Continuity</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>8. Risks & Mitigations</h4>
+                        <ul>
+                            <li><strong>Partner Misalignment:</strong> Clear selection criteria and defined scope</li>
+                            <li><strong>Over-Customization:</strong> Performance-linked customization only</li>
+                            <li><strong>Mentor Bandwidth:</strong> Prioritize high-impact partnerships</li>
+                            <li><strong>Brand Dilution:</strong> Periodic review of strategic and brand alignment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-rural" class="project-page">
+        <div class="pp-header">
+            <button class="pp-back" onclick="closeProject()">← Back to Portfolio</button>
+            <span class="pp-title">Rural Immersion — Golpura Village, Dhar District</span>
+        </div>
+        <div class="pp-body">
+            <div class="summary-card">
+                <div class="summary-label">⚡ Quick Glance Summary</div>
+                <h2>Understanding Rural Lifestyle — 8-Day Field Immersion</h2>
+                <div class="summary-grid">
+                    <div class="summary-stat"><span class="val">721</span><span class="lbl">Village Population</span></div>
+                    <div class="summary-stat"><span class="val">8 Days</span><span class="lbl">Immersion Duration</span></div>
+                    <div class="summary-stat"><span class="val">6 PRA Tools</span><span class="lbl">Methods Used</span></div>
+                    <div class="summary-stat"><span class="val">LBSIM</span><span class="lbl">Institution</span></div>
+                </div>
+                <p class="summary-text">As part of LBSIM's Rural Immersion Programme in Manawar, Madhya Pradesh, our team spent 8 days living and working in Golpura — a Scheduled Tribe village with 123 households. Using PRA (Participatory Rural Appraisal) tools, we mapped the village's infrastructure, economy, culture, and key challenges — producing actionable recommendations for sustainable rural development.</p>
+                <ul class="summary-bullets">
+                    <li>Top community problem: Lack of drainage facilities (ranked #1 via pairwise ranking)</li>
+                    <li>Farmers earn a net cash flow of just ₹10,000 from an annual cotton cycle of ₹5.25L</li>
+                    <li>Electricity reached the village only in 2000 — development heavily government-driven post-2014</li>
+                    <li>Education drop-off risk: secondary school located 5km away, driving girl dropout rates</li>
+                    <li>Kalli Bai's story highlights women's economic exclusion and the power of SHG participation</li>
+                    <li>Key recommendation: Skill training, SHG expansion, crop insurance, better market linkages</li>
+                </ul>
+            </div>
+            <div class="full-report-toggle">
+                <div class="toggle-header" onclick="toggleSection(this)">
+                    <h3>📋 Full Report — Rural Immersion Findings</h3>
+                    <span class="toggle-arrow">▼</span>
+                </div>
+                <div class="toggle-body">
+                    <div class="report-section">
+                        <h4>Village Profile: Golpura</h4>
+                        <ul>
+                            <li>Panchayat: Temarni, District: Dhar, Madhya Pradesh</li>
+                            <li>Population: 721 (367 male, 354 female, 69 children) | 123 households</li>
+                            <li>Category: Scheduled Tribe | Religion: Hindu | Language: Nimandi, Hindi</li>
+                            <li>Major Crops: Maize, Cotton, Soybean | Occupation: Agriculture & livestock</li>
+                            <li>Housing: Kutcha and semi-finished houses | Water: Wells, taps, tanks</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>PRA Tools Used</h4>
+                        <ul>
+                            <li><strong>Transect Walk:</strong> Observed village road, washrooms, water sources, temple, irrigation system</li>
+                            <li><strong>Social & Resource Map:</strong> Community-drawn map of households, fields, water bodies</li>
+                            <li><strong>Historical Timeline:</strong> From temple establishment (1965) to water tank (2022)</li>
+                            <li><strong>Mobility Map:</strong> Bank, police station 5–15km away — high transactional costs</li>
+                            <li><strong>Seasonal Calendar:</strong> Income gap April–September; maize & cotton drive economy</li>
+                            <li><strong>Pairwise Ranking:</strong> Drainage facilities ranked #1 problem (modal value: 6)</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Cotton Farmer Cash Flow</h4>
+                        <table class="report-table">
+                            <tr><th>Particulars</th><th>Amount (₹)</th></tr>
+                            <tr><td>Total Cash Inflows (cotton sales, livestock, govt schemes, loans)</td><td>5,25,000</td></tr>
+                            <tr><td>Total Cash Outflows (seeds, labour, loan repayment, household)</td><td>5,15,000</td></tr>
+                            <tr><td><strong>Net Cash Flow</strong></td><td><strong>10,000</strong></td></tr>
+                            <tr><td>Closing Balance</td><td>35,000</td></tr>
+                        </table>
+                    </div>
+                    <div class="report-section">
+                        <h4>Key Inferences</h4>
+                        <ul>
+                            <li><strong>Developmental Lag:</strong> Basic infrastructure lagged behind social structures — electricity came 35 years after the temple</li>
+                            <li><strong>Government-Driven Growth:</strong> All major infrastructure post-2014 (toilets, roads, water tank)</li>
+                            <li><strong>Income Seasonality:</strong> 6-month income gap forces borrowing and perpetuates the debt cycle</li>
+                            <li><strong>Education Gap:</strong> Distance to secondary school likely drives dropout, especially for girls</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Case Studies</h4>
+                        <ul>
+                            <li><strong>Sawan (20):</strong> Young farmer — no irrigation, total dependence on rainfall, symbolizes rural youth resilience</li>
+                            <li><strong>Two Village Shops:</strong> One legacy, one aspirational — the heartbeat of Golpura's informal economy</li>
+                            <li><strong>Kalli Bai:</strong> Tribal woman facing economic exclusion, early marriage, cultural taboos — joined SHG, now aspires to Jan Dhan & PM Kisan schemes</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>SWOT</h4>
+                        <ul>
+                            <li><strong>Strengths:</strong> Fertile land, clean water taps, rich cultural traditions</li>
+                            <li><strong>Weaknesses:</strong> Poor roads, no hospitals, technology gap</li>
+                            <li><strong>Opportunities:</strong> Rural development schemes, organic farming, solar energy</li>
+                            <li><strong>Threats:</strong> Unstable crop prices, drought risk, fund misuse</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Way Forward</h4>
+                        <ul>
+                            <li>Skill training programs for youth and women</li>
+                            <li>Workshops on credit programs vs. moneylenders</li>
+                            <li>Support SHGs, JLGs, and farmer cooperatives</li>
+                            <li>Expand rural schools and e-learning tools</li>
+                            <li>Facilitate crop insurance and better market linkages</li>
+                            <li>Empower rural youth as change agents</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-publication" class="project-page">
+        <div class="pp-header">
+            <button class="pp-back" onclick="closeProject()">← Back to Portfolio</button>
+            <span class="pp-title">Research Publication — Scopus Indexed</span>
+        </div>
+        <div class="pp-body">
+            <div class="summary-card">
+                <div class="summary-label">⚡ Quick Glance Summary</div>
+                <h2>Green HRM & Employee Well-Being — A Bibliometric Study</h2>
+                <div class="summary-grid">
+                    <div class="summary-stat"><span class="val">Scopus</span><span class="lbl">Journal Index</span></div>
+                    <div class="summary-stat"><span class="val">180</span><span class="lbl">Papers Analyzed</span></div>
+                    <div class="summary-stat"><span class="val">2019–24</span><span class="lbl">Timespan</span></div>
+                    <div class="summary-stat"><span class="val">R Studio</span><span class="lbl">Tool Used</span></div>
+                </div>
+                <p class="summary-text">This co-authored research paper — published in the International Journal of Environmental Sciences (Vol. 11, No. 5, 2025) — explores how Green HRM practices influence employee well-being and long-term organizational resilience. Using bibliometric analysis via R Package (Biblioshiny) on 4,962 papers (2019–2024), it identifies key trends, knowledge gaps, and future research directions in sustainable HRM.</p>
+                <ul class="summary-bullets">
+                    <li>Only ~3.63% of 4,962 papers met reputable journal quality standards</li>
+                    <li>2022 saw the peak in Green HRM publications (2,106 papers)</li>
+                    <li>Key finding: Green hiring significantly influences organizational sustainability commitment</li>
+                    <li>Top publication source: Encyclopedia of UN Sustainable Development Goals (78 papers, 158 citations)</li>
+                    <li>Word cloud highlights: occupational health, workplace wellness, quality of life, burnout</li>
+                    <li>Gap identified: Long-term impact of Green HRM on performance remains understudied</li>
+                </ul>
+            </div>
+            <div class="full-report-toggle">
+                <div class="toggle-header" onclick="toggleSection(this)">
+                    <h3>📄 Full Paper Details — Bibliometric Analysis</h3>
+                    <span class="toggle-arrow">▼</span>
+                </div>
+                <div class="toggle-body">
+                    <div class="report-section">
+                        <h4>Publication Details</h4>
+                        <ul>
+                            <li><strong>Title:</strong> Exploring Sustainable Green HRM Perspectives: A Bibliometric Analysis of Employee Well-Being and Organisational Resilience</li>
+                            <li><strong>Authors:</strong> Dr. Shobha Bhardwaj, Dr. Anuradha, Dr. Vikas Garg, Kanishkaa Tiwari, <strong>Maulik Singhal</strong></li>
+                            <li><strong>Journal:</strong> International Journal of Environmental Sciences | ISSN: 2229-7359</li>
+                            <li><strong>Volume:</strong> Vol. 11, No. 5, 2025 | Pages 2586–2597</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Abstract</h4>
+                        <p>This qualitative research explores the multifaceted impact of Green HRM practices on the long-term sustainability of organizations and the well-being of employees. The study investigates how sustainable HR practices contribute to creating a positive work environment, fostering a green workforce, and promoting long-term employee retention. A systematic literature review and Bibliometric Analysis using R Package (Biblioshiny) synthesize existing knowledge on the relationship between Green HRM and organizational outcomes.</p>
+                    </div>
+                    <div class="report-section">
+                        <h4>Methodology</h4>
+                        <ul>
+                            <li>Database: Dimension.ai core collection</li>
+                            <li>Keywords: "Green HRM", "organizational resilience", "sustainable practices", "work-life balance", "employee retention", "employee wellness"</li>
+                            <li>Boolean operator AND used to refine combinations</li>
+                            <li>Timespan: 2019 – January 2024 | Reputed journals: UGC Group I & II, PubMed</li>
+                            <li>Tool: R Studio (Biblioshiny) for bibliometric network mapping</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Key Findings</h4>
+                        <table class="report-table">
+                            <tr><th>Year</th><th>Total Publications</th><th>Reputed Journal Publications</th></tr>
+                            <tr><td>2019</td><td>260</td><td>24</td></tr>
+                            <tr><td>2020</td><td>349</td><td>26</td></tr>
+                            <tr><td>2021</td><td>668</td><td>29</td></tr>
+                            <tr><td>2022</td><td>2,106</td><td>39</td></tr>
+                            <tr><td>2023</td><td>1,558</td><td>55</td></tr>
+                            <tr><td>Jan 2024</td><td>21</td><td>7</td></tr>
+                            <tr><td><strong>Total</strong></td><td><strong>4,962</strong></td><td><strong>180</strong></td></tr>
+                        </table>
+                    </div>
+                    <div class="report-section">
+                        <h4>Conclusions</h4>
+                        <ul>
+                            <li>Green HRM is an emerging field with only ~3.63% quality-filtered research — substantial gap remains</li>
+                            <li>Organizations adopting eco-friendly HR policies show improved employee well-being and organizational resilience</li>
+                            <li>Work-life balance is a critical mediator between Green HRM and employee outcomes</li>
+                            <li>Future research should expand temporal range, geographic diversity, and integrate AI/ML implications</li>
+                        </ul>
+                    </div>
+                    <div class="report-section">
+                        <h4>Keywords</h4>
+                        <p>Employee wellness, Green HRM, Sustainable practices, Work-life balance, Employee retention, Organisational Resilience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
